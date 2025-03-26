@@ -1,6 +1,5 @@
 import { GifItem } from "./GifItem";
 import { useFetchGifs } from "../hooks/useFetchGifs";
-import { useState } from "react";
 
 
 export const GifGrid = ({ category, onDeleteCategory }) => {
